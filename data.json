@@ -1,0 +1,213 @@
+{
+  "github_source_repo": "https://github.com/serpcompany/tubev-downloader",
+  "serply_link": "https://serp.ly/tubev-downloader",
+  "app_name": "Tubev Video Downloader",
+  "short_description": "Download & Save Tubev Videos Easily for Offline Viewing (Browser Extension)",
+  "long_description": "Tubev Downloader is a focused browser extension for detecting and saving supported videos from TubeV pages. It works from the active video page, using browser-side detection to find available media after playback starts — no need to copy page source, inspect network tabs, or rely on generic paste-a-link tools.",
+  "main_video": "",
+  "featured_image": "",
+  "screenshots": [
+    "https://apps.serp.co/media/optimized-products/tubev-downloader-fullscreen-01-c77287f09f.webp",
+    "https://apps.serp.co/media/optimized-products/tubev-downloader-fullscreen-02-344ee56573.webp",
+    "https://apps.serp.co/media/optimized-products/tubev-downloader-fullscreen-03-1762a56beb.webp",
+    "https://apps.serp.co/media/optimized-products/tubev-downloader-fullscreen-04-aff6997e42.webp"
+  ],
+  "chromestore_link": "",
+  "firefoxstore_link": "",
+  "other_links": [],
+  "faqs": [
+    {
+      "question": "Does Tubev Downloader work on every TubeV video?",
+      "answer": "The extension detects media that TubeV pages expose. Coverage depends on how each video page loads its player and streams. Test with the supported video format to confirm."
+    },
+    {
+      "question": "Do I need to install any other software?",
+      "answer": "No. Everything runs inside your browser through the extension. No command-line tools or external applications are required."
+    },
+    {
+      "question": "Is my download history private?",
+      "answer": "Downloads happen locally through your browser. The extension does not upload your video files or share your download history."
+    },
+    {
+      "question": "Can I use Tubev Downloader on mobile browsers?",
+      "answer": "This extension is designed for desktop browsers like Chrome, Edge, Brave, and Firefox. Mobile browser support is not available at this time."
+    },
+    {
+      "question": "What happens after my 3 trial downloads?",
+      "answer": "You can purchase a license for unlimited downloads. Your trial gives you a chance to verify the workflow works for your needs before committing."
+    }
+  ],
+  "permissions": [
+    {
+      "name": "",
+      "description": "Keep a local copy of content you have permission to download"
+    },
+    {
+      "name": "",
+      "description": "Only download content you own or have explicit permission to save"
+    }
+  ],
+  "features": [
+    "TubeV-specific downloader identity with host matches for tubev.sex and subdomains",
+    "Browser-first workflow that starts on the active video page",
+    "Detection-oriented approach for media exposed after playback",
+    "Clean MP4 output for easy playback and archiving",
+    "Simple popup controls with available quality options",
+    "Detects supported video media on active TubeV pages",
+    "Works after playback starts so player requests can load",
+    "Presents available quality options in a simple popup",
+    "Downloads files as MP4 for broad compatibility",
+    "Host match coverage for tubev.sex and subdomains",
+    "Browser-based workflow with no command-line tools needed",
+    "Clean popup interface for selecting and saving media",
+    "Trial downloads available to test the workflow first"
+  ],
+  "content": {
+    "why": [
+      "TubeV video pages often hide the usable media URL behind player scripts and runtime requests. A simple right-click save rarely works, and generic downloaders can pick up thumbnails, previews, ads, or unrelated assets instead of the actual video you want.",
+      "Tubev Downloader solves this by working directly from the active video page. It detects available media candidates after the player loads, then presents the supported options in a clean popup. You choose the quality you want and save the file — no technical tools required."
+    ],
+    "how_it_works": [
+      "Install the extension from the latest release.",
+      "Open TubeV and go to a supported video page.",
+      "Start playback so the extension can detect the media.",
+      "Open the popup or use the on-page controls.",
+      "Choose the quality option you want.",
+      "Start the download and wait for the MP4 export to finish.",
+      "Save the final file locally."
+    ],
+    "tutorial": [
+      "Open your browser and navigate to a TubeV video page you want to save.",
+      "Let the page load fully and press play on the video player.",
+      "Wait a few seconds for the player to load its media requests.",
+      "Click the Tubev Downloader icon in your browser toolbar.",
+      "The popup will display any detected media candidates from the page.",
+      "Select the quality option you prefer from the available choices.",
+      "Click the download button and wait for the process to complete.",
+      "Save the MP4 file to your preferred local folder."
+    ],
+    "supported_formats": [
+      "Input: Supported video streams exposed by TubeV pages after playback starts",
+      "Output: MP4",
+      "Saved files use MP4 so they are easier to replay on standard media players, move between devices, or archive locally."
+    ],
+    "target_users": [
+      "TubeV viewers who want to save videos for offline viewing",
+      "Non-technical users who prefer a browser extension over command-line tools",
+      "Anyone tired of manual network inspection or generic paste-a-link downloaders",
+      "Users who want a TubeV-specific tool instead of a one-size-fits-all solution"
+    ],
+    "use_cases": [
+      "Save a supported TubeV video for offline viewing without an internet connection",
+      "Archive favorite videos for personal backup and local access",
+      "Watch TubeV content on devices or media players that do not support streaming",
+      "Keep a local copy of content you have permission to download",
+      "Organize downloads under a TubeV-named workflow for easy file management"
+    ],
+    "troubleshooting": [
+      "No media detected after opening the popup Make sure the video is playing on the page. Some TubeV videos require playback to start before media URLs become available.",
+      "Download does not start Check your browser download settings and ensure no popup blocker is interfering with the extension. Try pausing and restarting the video.",
+      "Wrong file or quality not as expected The available options depend on what the TubeV page exposes. Try a different video to confirm the extension is detecting media correctly.",
+      "Extension icon is grayed out on TubeV pages Refresh the page and try again. Make sure you are on a supported TubeV video URL.",
+      "Download is slow or stuck Large files can take time. Check your internet connection and try again. If the issue persists, the source stream may have changed."
+    ],
+    "trial_access": [
+      "Includes 3 free downloads so you can test the workflow first",
+      "Email sign-in uses secure one-time password verification",
+      "No credit card required for the trial",
+      "Unlimited downloads are available with a paid license"
+    ],
+    "installation_instructions": [
+      "Open the latest release page.",
+      "Download the correct build for your browser.",
+      "Install the extension.",
+      "Open a supported TubeV page.",
+      "Use the popup to detect and download the media."
+    ],
+    "notes": [
+      "Only download content you own or have explicit permission to save",
+      "An internet connection is required for downloads",
+      "TubeV video pages may change their player behavior over time, which can affect detection",
+      "The extension works best when the video player has fully loaded and started playback"
+    ],
+    "about": [
+      "TubeV is an adult video hosting platform featuring user-uploaded and studio content across a wide range of categories. Tubev Downloader gives viewers a straightforward way to save supported videos for offline access without needing technical tools or manual inspection."
+    ]
+  },
+  "serpx_link": "https://serpx.link/tubev-downloader",
+  "github_topics": [
+    "tubev-download",
+    "tubev-downloader",
+    "tubev-video-downloader",
+    "tubev-video-downloader-online",
+    "tubev-video-downloader-mac",
+    "tubev-video-downloader-window",
+    "tubev-video-downloader-free",
+    "tubev-video-downloader-extension",
+    "tubev-video-downloader-app",
+    "tubev-video-downloader-chrome",
+    "tubev-video-downloader-from-url",
+    "how-to-download-tubev-videos",
+    "how-to-download-tubev-videos-mac",
+    "how-to-download-tubev-videos-windows",
+    "how-to-download-tubev-videos-online",
+    "how-to-download-tubev-videos-free",
+    "how-to-download-from-tubev",
+    "how-to-download-videos-from-tubev",
+    "download-tubev-videos",
+    "tubev-video-tutorial",
+    "save-tubev-videos",
+    "tubev-video-content-saver",
+    "how-to-download-tubev-videos-for-free"
+  ],
+  "hashtags": [
+    "#TubevDownload",
+    "#TubevDownloader",
+    "#TubevVideoDownloader",
+    "#TubevVideoDownloaderOnline",
+    "#TubevVideoDownloaderMac",
+    "#TubevVideoDownloaderWindow",
+    "#TubevVideoDownloaderFree",
+    "#TubevVideoDownloaderExtension",
+    "#TubevVideoDownloaderApp",
+    "#TubevVideoDownloaderChrome",
+    "#TubevVideoDownloaderFromURL",
+    "#HowToDownloadTubevVideos",
+    "#HowToDownloadTubevVideosMac",
+    "#HowToDownloadTubevVideosWindows",
+    "#HowToDownloadTubevVideosOnline",
+    "#HowToDownloadTubevVideosFree",
+    "#HowToDownloadFromTubev",
+    "#HowToDownloadVideosFromTubev",
+    "#DownloadTubevVideos",
+    "#TubevVideoTutorial",
+    "#SaveTubevVideos",
+    "#TubevVideoContentSaver",
+    "#HowToDownloadTubevVideosForFree"
+  ],
+  "youtube_tags": [
+    "Tubev Download",
+    "Tubev Downloader",
+    "Tubev Video Downloader",
+    "Tubev Video Downloader Online",
+    "Tubev Video Downloader Mac",
+    "Tubev Video Downloader Window",
+    "Tubev Video Downloader Free",
+    "Tubev Video Downloader Extension",
+    "Tubev Video Downloader App",
+    "Tubev Video Downloader Chrome",
+    "Tubev Video Downloader From URL",
+    "How To Download Tubev Videos",
+    "How To Download Tubev Videos Mac",
+    "How To Download Tubev Videos Windows",
+    "How To Download Tubev Videos Online",
+    "How To Download Tubev Videos Free",
+    "How To Download From Tubev",
+    "How To Download Videos From Tubev",
+    "Download Tubev Videos",
+    "Tubev Video Tutorial",
+    "Save Tubev Videos",
+    "Tubev Video Content Saver",
+    "How To Download Tubev Videos For Free"
+  ]
+}
